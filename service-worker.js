@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.ea100c098d657fadb31a826032451eac.js"
+  "/precache-manifest.3e37315e33f208b61ee91bec8a96227c.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "vue-dashboard"});
+workbox.core.setCacheNameDetails({prefix: "flash-coffee"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
