@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.3e37315e33f208b61ee91bec8a96227c.js"
+  "/precache-manifest.e3dd3656c8eec990e15725b06f215915.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "flash-coffee"});
